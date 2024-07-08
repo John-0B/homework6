@@ -1,0 +1,16 @@
+my_dict = {'John': 1982, 'Sam': 2003}
+print('Dict: ', my_dict)
+print('Existing value: ', my_dict['Sam'])
+print('Not existing value: ', my_dict.get('Max'))
+my_dict.update({'Max': 1995, 'Ann': 1998})
+print('Updated dictionary: ', my_dict)
+a = my_dict.pop('John')
+print('Deleted value: ', a)
+print('Modified dictionary: ', my_dict)
+print('______________________')
+my_set = {'John', 'Max', 1, 2, 1, 'Max'}
+print('Set:', my_set)
+my_set.add(10)
+my_set.add('Ann')
+my_set.discard(1)
+print('Modified set: ', my_set)
